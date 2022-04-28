@@ -59,6 +59,10 @@ app.get('/', (req, res) => {
     res.send("Ema-John is running");
 })
 
+app.get('/hero', (req, res) => {
+    res.send("Hero is coming");
+})
+
 // Listen to port 
 app.listen(port, () =>{
     console.log("Listening to Port", port);
